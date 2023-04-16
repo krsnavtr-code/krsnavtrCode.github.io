@@ -1,0 +1,66 @@
+/* NavBar Customization*/
+.navbar-brand {
+  letter-spacing: 1px;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+.dropdown-menu {
+  display: none;
+}
+.customNav:hover {
+  text-decoration: underline;
+}
+.navbar {
+  margin-top: -1;
+  padding-top: -1;
+}
+
+/* Carousel Slide Image Filter*/
+.pageOneBg {
+  filter: brightness(20%);
+}
+
+/* Carousel Slide Breadpoints for Mobile Phones*/
+@media (max-width: 576px) {
+  /* Carousel */
+  .socialMediaLinks {
+    display: none;
+  }
+  .carousel-inner > .carousel-item > img {
+    width: 640px;
+    height: 400px;
+  }
+  .carousel-caption h5 {
+    font-size: calc(.9rem + .3vw)!important;
+  }
+  .carousel-inner > .carousel-item > .carousel-caption > h5 p{
+    font-size: 5px;
+  }
+  .carousel {
+    font-size: 12px;
+  }
+  .col-md-5 > img {
+    display: none;
+  }
+  .carouselBtn {
+    text-align: center;
+  }
+  /* Contact Page */
+  .col-md-6 {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  /* Carousel */
+  .carousel-inner > .carousel-item > img {
+    width: 640px;
+    height: 400px;
+  }
+  .carousel-caption h5 {
+    font-size: calc(.9rem + .3vw)!important;
+  }
+}
+
+/*  */
