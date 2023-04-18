@@ -31,7 +31,7 @@ includeHTML();
 let cloneBlog = document.querySelector(`#clonBlogElm`);
 let changeContent = [
   {
-    imgCoverPath: "../krsnavtrCode.github.io/images/bg3.jpg",
+    imgCoverPath: "./images/bg3.jpg",
     imgAlt: "",
     blogDate: "2015-",
     blogTitle: "qwertyjk",
@@ -40,7 +40,7 @@ let changeContent = [
     buttonUrl: "item-content-button",
   },
   {
-    imgCoverPath: "../krsnavtrCode.github.io/images/bg4.jpg",
+    imgCoverPath: "./images/bg4.jpg",
     imgAlt: "",
     blogDate: "2015-",
     blogTitle: "qwertyjk",
@@ -49,7 +49,7 @@ let changeContent = [
     buttonUrl: "item-content-button",
   },
   {
-    imgCoverPath: "../krsnavtrCode.github.io/images/bg1.jpg",
+    imgCoverPath: "./images/bg1.jpg",
     imgAlt: "",
     blogDate: "2015-",
     blogTitle: "qwertyjk",
@@ -58,7 +58,7 @@ let changeContent = [
     buttonUrl: "item-content-button",
   },
   {
-    imgCoverPath: "../krsnavtrCode.github.io/images/bg4.jpg",
+    imgCoverPath: "./images/bg4.jpg",
     imgAlt: "",
     blogDate: "2015-",
     blogTitle: "qwertyjk",
@@ -110,7 +110,7 @@ changeContent.forEach((item, i) => {
 let cloneProjectItem = document.querySelector(`#clonProjectElm`);
 let changeProjectContent = [
   {
-    imgCoverPath: "../krsnavtrCode.github.io/images/bg3.jpg",
+    imgCoverPath: "./images/bg3.jpg",
     imgAlt: "",
     blogDate: "2015-",
     blogTitle: "qwertyjk",
@@ -119,7 +119,7 @@ let changeProjectContent = [
     buttonUrl: "item-content-button",
   },
   {
-    imgCoverPath: "../krsnavtrCode.github.io/images/bg4.jpg",
+    imgCoverPath: "./images/bg4.jpg",
     imgAlt: "",
     blogDate: "2015-",
     blogTitle: "qwertyjk",
@@ -128,7 +128,7 @@ let changeProjectContent = [
     buttonUrl: "item-content-button",
   },
   {
-    imgCoverPath: "../krsnavtrCode.github.io/images/bg1.jpg",
+    imgCoverPath: "./images/bg1.jpg",
     imgAlt: "",
     blogDate: "2015-",
     blogTitle: "qwertyjk",
@@ -137,7 +137,7 @@ let changeProjectContent = [
     buttonUrl: "item-content-button",
   },
   {
-    imgCoverPath: "../krsnavtrCode.github.io/images/bg4.jpg",
+    imgCoverPath: "./images/bg4.jpg",
     imgAlt: "",
     blogDate: "2015-",
     blogTitle: "qwertyjk",
