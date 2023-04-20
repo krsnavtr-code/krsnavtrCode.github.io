@@ -37,7 +37,12 @@
             <strong class="text-warning">HTML, CSS, JavaScript, React</strong>
             and <strong class="text-warning">Angular</strong> to create responsive website.
           </p>
-          <a href="#" type="button" class="btn btn-outline-warning btn-sm">read more</a>
+          <div class="carouselBtn">
+            <button type="button" class="btn btn-warning btn-sm carouselBtn" data-bs-toggle="modal"
+              data-bs-target="#viewCvModal">
+              View CV
+            </button>
+          </div>
         </div>
       </div>
       <div class="carousel-item">
@@ -50,7 +55,12 @@
               Node.js</strong> and database systems such as <strong class="text-warning">MongoDB</strong> to build the
             server-side logic and
             infrastructure for web applications..</p>
-          <a href="#" type="button" class="btn btn-outline-warning btn-sm">read more</a>
+          <div class="carouselBtn">
+            <button type="button" class="btn btn-warning btn-sm carouselBtn" data-bs-toggle="modal"
+              data-bs-target="#viewCvModal">
+              View CV
+            </button>
+          </div>
         </div>
       </div>
       <div class="carousel-item">
@@ -61,7 +71,12 @@
           <p>As a Bootstrap developer, I specialize in using the <strong class="text-warning">Bootstrap framework
               version-5</strong> to create beautiful, functional,
             and user-friendly websites that work seamlessly across all devices.</p>
-          <a href="#" type="button" class="btn btn-outline-warning btn-sm">read more</a>
+          <div class="carouselBtn">
+            <button type="button" class="btn btn-warning btn-sm carouselBtn" data-bs-toggle="modal"
+              data-bs-target="#viewCvModal">
+              View CV
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -77,273 +92,80 @@
     </button>
   </div>
 
-  <!-- About -->
-  <main class="mt-5">
-    <div class="container marketing">
-      <div class="row featurette">
-        <div class="col-md-5">
-          <img src="./images/myP5.jpg"
-            class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="600" height="600"
-            role="img" aria-label="Placeholder: 600x600" preserveAspectRatio="xMidYMid slice" focusable="false">
-          <rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect></img>
-        </div>
-        <div class="col-md-7">
-          <strong class="featurette-heading lh-1 fs-1 m-4 fs-1 d-flex flex-column align-items-center">About
-            Me</strong>
-          <p class="lead">My goal as a developer is to create beautiful, functional
-            websites and applications that meet the needs of my clients.
-          </p>
-          <table class="table table-borderless">
-            <tbody>
-              <tr>
-                <th scope="row">Name:</th>
-                <td>Krishna Avtar</td>
-              </tr>
-              <tr>
-                <th scope="row">Date of birth:</th>
-                <td>01/02/2001</td>
-              </tr>
-              <tr>
-                <th scope="row">Address:</th>
-                <td>Doolhapur patti chauhan (M.S.T), Moradabad</td>
-              </tr>
-              <tr>
-                <th scope="row">Zip code:</th>
-                <td>244602</td>
-              </tr>
-              <tr>
-                <th scope="row">Email:</th>
-                <td>krsnavtr@gmail.com</td>
-              </tr>
-              <tr>
-                <th scope="row">Phone:</th>
-                <td>+91 9084407615</td>
-              </tr>
-            </tbody>
-          </table>
-          <div class="counter-wrap ftco-animate mt-md-3 fadeInUp ftco-animated">
-            <div class="text ">
-              <p class="mb-4">
-                <strong class="number" data-number="120">12</strong>
-                <span>Project complete</span>
-              </p>
-              <div class="carouselBtn">
-                <button type="button" class="btn btn-warning btn-sm carouselBtn" data-bs-toggle="modal"
-                  data-bs-target="#viewCvModal">
-                  View CV
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </main>
-
   <!--Import View CV Modal -->
   <div w3-include-html="./pdfView.html"></div>
 
-  <!-- Blog -->
-  <div class="container mt-5">
-    <div class="row mb-2">
-      <strong class="d-flex justify-content-center mb-4 fs-1">Our
-        Blog</strong>
-      <div class="col-md-6">
-        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-          <div class="col-auto d-none d-lg-block">
-            <img class="bd-placeholder-img" width="100%" height="100%" src="./images/blogfrontendbg.webp" role="img"
-              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <rect width="100%" height="100%"></rect>
-            </img>
-          </div>
-          <div class="col p-4 d-flex flex-column position-static">
-            <strong class="d-inline-block mb-2 text-primary">Portfolio website using Bootstrap</strong>
-            <div class="mb-1 text-body-secondary">Apr 11</div>
-            <p class="card-text mb-auto">Bootstrap is a framework for front-end development that helps you build
-              websites in a very easy way, Bootstrap is used by 25.8% of websites that have a JavaScript library that we
-              know of. This is 21.3% of all websites...</p>
-            <button href="#"
-              class="stretched-link border-0 bg-body link-underline-warning text-decoration-underline text-warning">Continue
-              reading</button>
-          </div>
-        </div>
+  <!-- Skills -->
+  <div class="container text-center mt-3 mb-5">
+    <strong class="fs-2 ">Skills</strong>
+    <div class="container mt-2 fs-4 px-4">
+      <span class="link-underline-warning text-decoration-underline">Programming Languages & Tools</span>
+      <div class="icon text-center mt-3 gx-5">
+        <img src="./images/HtmlLogo.png" class="" height="50px" alt="">
+        <img src="./images/CssLogo.png" class="" height="50px" alt="">
+        <img src="./images/JavaScriptLogo.png" height="50px" class="" alt="">
       </div>
-      <div class="col-md-6">
-        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-          <div class="col-auto d-none d-lg-block">
-            <img class="bd-placeholder-img" width="100%" height="100%" src="./images/bloghtmlcssbg.jpg" role="img"
-              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <rect width="100%" height="100%" fill="#55595c"></rect>
-            </img>
-          </div>
-          <div class="col p-4 d-flex flex-column position-static">
-            <strong class="d-inline-block mb-2 text-success">Portfolio website using HTML CSS</strong>
-            <div class="mb-1 text-body-secondary">Nov 11</div>
-            <p class="mb-auto">With this digital era, the most important thing is that you relate yourself with this
-              era. It becomes even more important if you are in the field of software, you want to showcase your work
-              and skills whether it is to get a job or to grow your business...
-            </p>
-            <button href="#"
-              class="stretched-link border-0 bg-body link-underline-warning text-decoration-underline text-warning">Continue
-              reading</button>
-          </div>
-        </div>
+      <div class="icon text-center mt-4 gx-5">
+        <img src="./images/BootstrapLogo.png" height="50px" class="" alt="">
+        <img src="./images/TailwindCssLogo.png" height="50px" class="" alt="">
+        <img src="./images/ReactLogo.png" height="50px" class="" alt="">
       </div>
-    </div>
-    <div class="row mb-2">
-      <div class="col-md-6">
-        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-          <div class="col-auto d-none d-lg-block">
-            <img class="bd-placeholder-img" width="100%" height="100%" src="./images/bloghtmlcssjsbg.png" role="img"
-              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <rect width="100%" height="100%" fill="#55595c"></rect>
-            </img>
-          </div>
-          <div class="col p-4 d-flex flex-column position-static">
-            <strong class="d-inline-block mb-2 text-primary">Portfolio website using HTML CSS JavaScript</strong>
-            <div class="mb-1 text-body-secondary">Nov 12</div>
-            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to
-              additional content.</p>
-            <button href="#"
-              class="stretched-link border-0 bg-body link-underline-warning text-decoration-underline text-warning">Continue
-              reading</button>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6 ">
-        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-          <div class="col-auto d-none d-lg-block">
-            <img class="bd-placeholder-img" width="100%" height="100%" src="./images/blogfrontendbg.webp" role="img"
-              aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
-            <rect width="100%" height="100%" fill="#55595c"></rect>
-            </img>
-          </div>
-          <div class="col p-4 d-flex flex-column position-static">
-            <strong class="d-inline-block mb-2 text-success">Portfolio website using Front End</strong>
-            <div class="mb-1 text-body-secondary">Nov 11</div>
-            <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional
-              content.
-            </p>
-            <button href="#"
-              class="stretched-link border-0 bg-body link-underline-warning text-decoration-underline text-warning">Continue
-              reading</button>
-          </div>
-        </div>
+      <div class="icon text-center mt-4 gx-5">
+        <img src="./images/VS-CodeLogo.png" height="50px" class="" alt="">
+        <img src="./images/Replit_Logo.png" height="50px" class="" alt="">
+        <img src="./images/GitHubLogo.png" height="50px" class="" alt="">
       </div>
     </div>
   </div>
 
-  <!-- Project -->
-  <div class="container mt-5">
-    <strong class="d-flex justify-content-center mb-4 fs-1">Projects</strong>
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" id="clonProjectElm">
-
-      <div class="col" id="0">
-        <div class="card shadow-sm">
-          <img class="bd-placeholder-img card-img-top" width="100%" height="100%" src="./images/projecthtmlcssbg.png"
-            role="img" alt="">
-          <rect width="100%" height="100%" fill="#55595c"></rect>
-          </img>
-          <div class="card-body">
-            <strong class="d-flex justify-content-center">Portfolio HTML CSS</strong>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.</p>
-            <div class="d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-warning" href="">View</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
+  <!-- Top Projects -->
+  <div class="container text-center mt-4">
+    <strong class="fs-2">Top Projects</strong>
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 mt-2">
       <div class="col">
         <div class="card shadow-sm">
-          <img class="bd-placeholder-img card-img-top" width="100%" height="100%" src="./images/projecthtmlcssjsbg.jpg"
-            role="img" alt="">
-          <rect width="100%" height="100%" fill="#55595c"></rect>
-          </img>
+          <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./images/projectBg1.jpg"
+            role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
           <div class="card-body">
-            <strong class="d-flex justify-content-center">Portfolio HTML CSS JavaScript</strong>
+            <h2 class="fw-normal fs-3">Login SignUp</h2>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
               content. This content is a little bit longer.</p>
-            <div class="d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-warning">View</button>
-              </div>
+            <div class="text-center">
+              <p><a class="btn btn-warning" href="#">View details »</a></p>
             </div>
           </div>
         </div>
       </div>
       <div class="col">
         <div class="card shadow-sm">
-          <img class="bd-placeholder-img card-img-top" width="100%" height="100%" src="./images/projectbootstrapbg.png"
-            role="img" alt="">
-          <rect width="100%" height="100%" fill="#55595c"></rect>
-          </img>
+          <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./images/projectBg2.png"
+            role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
           <div class="card-body">
-            <strong class="d-flex justify-content-center">Portfolio Bootstrap</strong>
+            <h2 class="fw-normal fs-3">Portfolio</h2>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
               content. This content is a little bit longer.</p>
-            <div class="d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-warning ">View</button>
-              </div>
+            <div class="text-center">
+              <p><a class="btn btn-warning" href="#">View details »</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card shadow-sm">
+          <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="#"
+            role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"></img>
+          <div class="card-body">
+            <h2 class="fw-normal fs-3">Heading</h2>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+            <div class="text-center">
+              <p><a class="btn btn-warning" href="#">View details »</a></p>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-
-  <!-- Contact Us -->
-  <section class="ftco-section mt-5">
-    <div class="container">
-      <div class="row text-center">
-        <h2 class="heading-section text-center mt-5 fs-1">Contact Us
-        </h2>
-        <div class="row justify-content-center">
-          <div class="col-md-6">
-            <div class="contact-wrap w-100 p-lg-5">
-              <h3 class="m-3">Send us a message</h3>
-              <div id="form-message-warning" class=""></div>
-              <form method="POST" id="contactForm" name="contactForm" class="contactForm" novalidate="novalidate">
-                <div class="row">
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <input type="text" class="form-control m-3" name="name" id="name" placeholder="Name">
-                    </div>
-                  </div>
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <input type="email" class="form-control m-3" name="email" id="email" placeholder="Email">
-                    </div>
-                  </div>
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <input type="text" class="form-control m-3" name="subject" id="subject" placeholder="Subject">
-                    </div>
-                  </div>
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <textarea name="message" class="form-control m-3" id="message" cols="30" rows="6"
-                        placeholder="Message"></textarea>
-                    </div>
-                  </div>
-                  <div class="col-md-12">
-                    <div class="form-group d-flex justify-content-center">
-                      <input type="submit" value="Send Message" class="btn btn-warning btn-sm ms-5 m-3 text-center">
-                      <div class="submitting"></div>
-                    </div>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!--Import Footer -->
   <div w3-include-html="./footer.html"></div>

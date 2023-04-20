@@ -1,0 +1,15 @@
+.y-axis-line {
+    height: 50px;
+    width: 3px;
+    border-radius: 5px;
+    background-color: tomato;
+}
+.x-axis-line {
+    height: 3px;
+    width: 250px;
+    border-radius: 5px;
+    background-color: tomato;
+}
+.icon > img {
+    width: 10%;
+}
