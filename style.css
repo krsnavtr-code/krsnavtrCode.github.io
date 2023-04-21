@@ -73,3 +73,30 @@
     font-size: 16px;
   }
 }
+
+/* Top Project  */
+@media (max-width:320px) {
+  .container > .row > .col > .card > .bd-placeholder-img {
+    height: 180px;
+  }
+}
+@media (min-width:321px) and (max-width:375px) {
+  .container > .row > .col > .card > .bd-placeholder-img {
+    height: 210px;
+  }
+}
+@media (min-width:426px) and (max-width:575px) {
+  .container > .row > .col > .card > .bd-placeholder-img {
+    height: 280px;
+  }
+}
+@media (min-width:576px) and (max-width:768px) {
+  .container > .row > .col > .card > .bd-placeholder-img {
+    height: 140px;
+  }
+}
+@media (min-width:769px) and (max-width:991px) {
+  .container > .row > .col > .card > .bd-placeholder-img {
+    height: 160px;
+  }
+}
