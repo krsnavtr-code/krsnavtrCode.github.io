@@ -5,79 +5,91 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Portfolio</title>
-  <link rel="stylesheet" href="./style.css">
+
+  <!-- Stylesheet -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+  integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../style.css">
 </head>
 
 <body>
-  <!-- Nevbar -->
+  <!-- NAVBAR -->
   <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
     <div class="container-fluid">
-      <a class="navbar-brand mb-0 h1" href="./index.html">KrsnavtrCode</a>
+      <!-- LOGO -->
+      <a class="navbar-brand mb-0 h1" href="../index.html">KrsnavtrCode</a>
+      <!-- TOGGLE BUTTON -->
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+      <!-- COLLAPS AND LINKS -->
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link customNav" aria-current="page" href="./index.html">Home</a>
+            <a class="nav-link customNav" aria-current="page" href="../index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link customNav" href="./about.html">About</a>
+            <a class="nav-link customNav" href="../pages/about.html">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link customNav" href="./skills.html">Tech Stack</a>
+            <a class="nav-link customNav" href="../pages/skills.html">Tech Stack</a>
           </li>
+          <!-- DROPDOWN NAV LINKS -->
           <li class="nav-item dropdown">
             <span class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">Projects</span>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item customNav" href="./htmlCssProject.html">HTML,CSS</a></li>
-              <li><a class="dropdown-item customNav" href="./htmlCssJsProject.html">HTML,CSS,Js</a></li>
+              <li><a class="dropdown-item customNav" href="../pages/htmlCssProject.html">HTML,CSS</a></li>
+              <li><a class="dropdown-item customNav" href="../pages/htmlCssJsProject.html">HTML,CSS,Js</a>
+              </li>
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link customNav" href="./contactUs.html">Contact Us</a>
+            <a class="nav-link customNav" href="../pages/contactUs.html">Contact Us</a>
           </li>
         </ul>
+        <!-- SEARCH BAR -->
         <form class="d-flex" role="search">
           <input class="form-control bg-secondary text-light" type="search" placeholder="Search" aria-label="Search" />
           <button class="btn btn-outline-secondary me-3 text-light" type="submit">
             Search
           </button>
         </form>
+        <!-- LOGIN AND SIGNUP PAGE LINKED -->
         <div>
-          <a href="./loginPage.html"><button type="button" class="btn btn-outline-primary btn-sm"
+          <a href="../pages/loginPage.html"><button type="button" class="btn btn-outline-primary btn-sm"
               id="loginButton">Login</button></a>
-          <a href="./signUpPage.html"><button type="button" class="btn btn-primary btn-sm"
+          <a href="../pages/signUpPage.html"><button type="button" class="btn btn-primary btn-sm"
               id="signUpButton">Register</button></a>
         </div>
       </div>
     </div>
   </nav>
 
-  <!-- Progress Bar -->
+  <!-- PROGRESS BAR-->
   <div class=" progressBar" role="progressbar" aria-label="Example 1px high" aria-valuenow="25" aria-valuemin="0"
     aria-valuemax="100">
     <div class="progress-bar progressBar"></div>
   </div>
 
-  <!-- Social Media Links -->
+  <!-- SOCIAL MEDIA LINKS -->
   <div class="position-relative socialMediaLinks">
     <div class="position-absolute mt-5 m-3 translate-middle">
       <ul class="list-unstyled">
-        <li class="ms-3 border-1"><a class="link-body-emphasis text-warning target" href="https://www.linkedin.com/in/krsnavtr-code/" target="_blank"><i
-              class="bi bi-linkedin "></i></a>
+        <li class="ms-3 border-1"><a class="link-body-emphasis text-warning target"
+            href="https://www.linkedin.com/in/krsnavtr-code/" target="_blank"><i class="bi bi-linkedin "></i></a>
         </li>
-        <li class="ms-3"><a class="link-body-emphasis text-warning target" href="https://github.com/krsnavtr-code" target="_blank"><i class="bi bi-github"></i></a></li>
-        <li class="ms-3"><a class="link-body-emphasis text-warning target" href="https://youtube.com/@krsnavtr-code" target="_blank"><i class="bi bi-youtube"></i></a></li>
+        <li class="ms-3"><a class="link-body-emphasis text-warning target" href="https://github.com/krsnavtr-code"
+            target="_blank"><i class="bi bi-github"></i></a></li>
+        <li class="ms-3"><a class="link-body-emphasis text-warning target" href="https://youtube.com/@krsnavtr-code"
+            target="_blank"><i class="bi bi-youtube"></i></a></li>
       </ul>
     </div>
   </div>
 
-  <script src="./script.js"></script>
+  <!-- SCRIPT FILES -->
+  <script src="../script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>

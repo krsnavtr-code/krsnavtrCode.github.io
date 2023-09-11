@@ -1,4 +1,4 @@
-// Show Hode Password and Change Icon
+// Show Hide Password and Change Icon
 class Password {
     constructor(passwordDiv) {
       this.passwordDiv = document.querySelector(passwordDiv)
